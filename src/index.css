@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo{
+  margin-top: 78px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 19px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.latest-news{
+  margin-left: 100px;
+  text-align: left;
+}
+
+.container{
+  position: relative;
+}
+.mainTitle{
+  position: absolute;
+  top: 75px;
+  left: 16px;
+}
+
+
+
+.sidebar {
+    
+    background-color: aliceblue;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    padding:0;
+    width: 70px;
+    border: solid 1px;
+}
+
+.logo {
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 78px;
+}
+
+.sidebarElements{
+    align-items: center;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.icon {
+    height: 50px;
+    width: 25px;
+    margin: 0;
+    
+    padding: 0;
+
+}
+
+.homeNav{
+    top: 0;
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    
+    
+}
+
+.searchIcon{
+    height: 18px;
+    width: 20px;
+    color: gray;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 25rem;
+    margin: 2rem;
+    margin-left: 8% ;
+    margin-right: 92%;
+  }
+  
+  .label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+  }
+  
+  .searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #searchQueryInput {
+    width: 100%;
+    height: 2.8rem;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+  
+  #searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  #searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+
+  .newsArea {
+   
+    padding-top: 20px;
+    position: relative;
+    left: 9%;
+  }
+
+  .Cards {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  .newsImg {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    
+    border-radius: 16px;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  
+
+  .newsCards{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);    
+    
+    flex-shrink: 0;
+    padding: 8px;
+    padding-bottom: 30px;
+    overflow: auto;
+    border-radius: 20px;
+  }
+
+  .newsTitle{
+    color: #f5f5f5;
+    margin-left: 5px;
+    margin: 10px;
+    font-size: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .news{
+    overflow: hidden;
+  }
+
+  .news:hover{
+    cursor: pointer;
+  }
+
+  .author{
+    color: rgb(188, 188, 188);
+    align-self:baseline;
+    margin-bottom: 10px;
+    margin-top: 0;
+    position:absolute;
+    left: 15px;
+    padding-bottom: 10px;
+  }
+

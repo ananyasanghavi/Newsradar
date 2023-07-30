@@ -1,0 +1,49 @@
+
+.address {
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100%;
+   width:100%;
+}
+
+input {
+    display:block;
+    align-self: center;
+    margin: auto ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    border-radius: 3px;
+    height: 2vh;
+    padding: 15px;
+    border: none;
+     
+  }
+.title{
+    margin-left: 42%;
+    padding-bottom:20px;
+    font-size:20px;
+    color: white;
+}
+.register-page {
+    margin-top:16%;
+    background-image: url("https://intranet.birmingham.ac.uk/staff/images/brand/download/Green-Heart-at-night.jpg");
+    padding: 2em;
+    background-repeat: no-repeat;
+    display: flex;
+    height:400px;
+    background-color: black;
+    margin-left:35%;
+    width:30%;
+    border-radius: 10px;
+    background-size: cover;
+    
+    
+  }
+  
+  .user-details {
+    align-items: center;
+    transition: all 0.3s ease ;
+    
+  }
